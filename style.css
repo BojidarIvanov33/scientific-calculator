@@ -1,0 +1,54 @@
+body{
+    background-image:url("math-curriculum.webp") ;
+    overflow: hidden;
+    opacity: 0.97;
+}
+.boxDesign{
+     background-color: rgba(20, 19, 18,0.9);
+     outline: 30px solid rgba(20, 19, 18,0.9);;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: relative;
+    top: 100px;
+    left: 100px;*/
+}
+.calculator{
+    background-color: rgb(39, 87, 76);
+    border-radius: 15px;
+    padding: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    box-shadow: -8px -8px 15px 10px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0,0.4);
+    font-size: 20px;
+    color: rgb(223, 211, 221);
+    cursor: pointer;
+    margin:10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .display input{
+    box-shadow: none;
+    font-size: 45px;
+    padding-right: 15px;
+    flex: 1;
+    text-align: right;
+}
+form input.operator{
+    color: rgb(117, 228, 141);
+}
+form input#equal{
+    width: 145px;
+}
